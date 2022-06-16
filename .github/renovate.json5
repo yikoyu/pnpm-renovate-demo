@@ -1,6 +1,13 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
-  extends: ['config:base', ':semanticCommits', ':disablePeerDependencies', 'schedule:daily', 'group:allNonMajor'],
+  extends: [
+    'config:base',
+    ':semanticCommitTypeAll(chore)',
+    ':semanticCommitScope(deps)',
+    ':disablePeerDependencies',
+    'group:allNonMajor',
+    'schedule:daily'
+  ],
   rangeStrategy: 'bump',
   packageRules: [
     {
