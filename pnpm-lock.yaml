@@ -8,11 +8,11 @@ specifiers:
   lodash-es: ^4.17.21
   prettier: ^2.7.1
   vite: ^2.9.12
-  zx: ^6.1.0
+  zx: ^7.0.0
 
 dependencies:
   lodash-es: 4.17.21
-  zx: 6.1.0
+  zx: 7.0.0
 
 devDependencies:
   eslint: 8.17.0
@@ -57,7 +57,7 @@ packages:
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
-    resolution: {integrity: sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=, tarball: '@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz'}
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -89,6 +89,10 @@ packages:
 
   /@types/node/17.0.45:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+    dev: false
+
+  /@types/ps-tree/1.1.2:
+    resolution: {integrity: sha512-ZREFYlpUmPQJ0esjxoG1fMvB2HNaD3z+mjqdSosZvd3RalncI9NEur73P8ZJz4YQdL64CmV1w0RuqoRUlhQRBw==}
     dev: false
 
   /@types/which/2.0.1:
@@ -1204,14 +1208,15 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /zx/6.1.0:
-    resolution: {integrity: sha512-LcvyN946APdktLPm1ta4wfNiJaDuq1iHOTDwApP69ug5hNYWzMYaVMC5Ek6Ny4nnSLpJ6wdY42feR/2LY5/nVA==}
+  /zx/7.0.0:
+    resolution: {integrity: sha512-QPUkzM2o/yfr8CnJgR3Uzi4ESW3IhM4iOIrDx2wJ0vZAU4Gz0Bd/wvOWdqAheJgUTc1ecTkOMpdBKCSBvVDnTg==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
       '@types/fs-extra': 9.0.13
       '@types/minimist': 1.2.2
       '@types/node': 17.0.45
+      '@types/ps-tree': 1.1.2
       '@types/which': 2.0.1
       chalk: 5.0.1
       fs-extra: 10.1.0
