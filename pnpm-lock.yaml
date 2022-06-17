@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  dayjs: ^1.10.7
   eslint: ^8.17.0
   eslint-config-prettier: ^8.5.0
   eslint-define-config: ^1.5.1
@@ -11,6 +12,7 @@ specifiers:
   zx: ^7.0.0
 
 dependencies:
+  dayjs: 1.10.7
   lodash-es: 4.17.21
   zx: 7.0.0
 
@@ -201,6 +203,10 @@ packages:
   /data-uri-to-buffer/4.0.0:
     resolution: {integrity: sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==}
     engines: {node: '>= 12'}
+    dev: false
+
+  /dayjs/1.10.7:
+    resolution: {integrity: sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==}
     dev: false
 
   /debug/4.3.4:
