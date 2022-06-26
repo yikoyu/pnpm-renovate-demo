@@ -10,13 +10,13 @@ specifiers:
   lodash-es: ^4.17.21
   prettier: ^2.7.1
   vite: ^2.9.12
-  zx: ^7.0.0
+  zx: ^7.0.2
 
 dependencies:
   axios: 0.27.2
   dayjs: 1.11.3
   lodash-es: 4.17.21
-  zx: 7.0.0
+  zx: 7.0.2
 
 devDependencies:
   eslint: 8.18.0
@@ -1272,8 +1272,8 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /zx/7.0.0:
-    resolution: {integrity: sha512-QPUkzM2o/yfr8CnJgR3Uzi4ESW3IhM4iOIrDx2wJ0vZAU4Gz0Bd/wvOWdqAheJgUTc1ecTkOMpdBKCSBvVDnTg==}
+  /zx/7.0.2:
+    resolution: {integrity: sha512-/xuU8tCvgZEe9u16pg0s92Lgbxzkp5PyXjwYrta84HVWBMJsk1Sn2DRfSYvMq73LJ/oRsdMwMiVVNlQan9dzug==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
