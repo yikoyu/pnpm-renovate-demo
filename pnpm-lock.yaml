@@ -9,7 +9,7 @@ specifiers:
   eslint-plugin-prettier: ^4.0.0
   lodash-es: ^4.17.21
   prettier: ^2.7.1
-  vite: ^2.9.12
+  vite: ^2.9.13
   zx: ^7.0.2
 
 dependencies:
@@ -24,7 +24,7 @@ devDependencies:
   eslint-define-config: 1.5.1
   eslint-plugin-prettier: 4.0.0_xu6ewijrtliw5q5lksq5uixwby
   prettier: 2.7.1
-  vite: 2.9.12
+  vite: 2.9.13
 
 packages:
 
@@ -1222,8 +1222,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.9.12:
-    resolution: {integrity: sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew==}
+  /vite/2.9.13:
+    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
