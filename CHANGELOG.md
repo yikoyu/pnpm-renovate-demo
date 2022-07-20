@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.2.1...v1.2.2) (2022-07-20)
+
+
+### Refactor
+
+* **index:** test refactor ([914a13e](https://github.com/yikoyu/pnpm-renovate-demo/commit/914a13e11352dc3985d315aca5a16cedcb35ddf2))
+
 ## [1.2.1](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.2.0...v1.2.1) (2022-07-20)
 
 
