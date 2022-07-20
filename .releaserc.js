@@ -3,35 +3,35 @@ module.exports = {
   plugins: [
     [
       '@semantic-release/commit-analyzer',
-      {
-        releaseRules: [{
-            type: "perf",
-            release: "patch"
-          },
-          {
-            type: "refactor",
-            release: "patch"
-          }
-        ]
-      }
+      // {
+      //   releaseRules: [{
+      //       type: "perf",
+      //       release: "patch"
+      //     },
+      //     {
+      //       type: "refactor",
+      //       release: "patch"
+      //     }
+      //   ]
+      // }
     ], // 解析 commit 信息，默认就是 Angular 规范
     [
       '@semantic-release/release-notes-generator',
-      {
-        presetConfig: {
-          types: [{
-              type: "perf",
-              section: "Performance",
-              "hidden": false
-            },
-            {
-              type: "refactor",
-              section: "Refactor",
-              "hidden": false
-            }
-          ]
-        }
-      }
+      // {
+      //   presetConfig: {
+      //     types: [{
+      //         type: "perf",
+      //         section: "Performance",
+      //         "hidden": false
+      //       },
+      //       {
+      //         type: "refactor",
+      //         section: "Refactor",
+      //         "hidden": false
+      //       }
+      //     ]
+      //   }
+      // }
     ],
     [
       '@semantic-release/changelog',
