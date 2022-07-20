@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.2.0...v1.2.1) (2022-07-20)
+
+
+### Performance
+
+* **index:** test perf ([4dd5542](https://github.com/yikoyu/pnpm-renovate-demo/commit/4dd5542e54ad1c701b5704190d2763e3eb5c22cc))
+
 ## [1.2.0](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.1.1...v1.2.0) (2022-07-20)
 
 
