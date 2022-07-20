@@ -8,6 +8,7 @@ specifiers:
   '@semantic-release/npm': ^9.0.1
   '@semantic-release/release-notes-generator': ^10.0.3
   axios: ^0.27.2
+  conventional-changelog-conventionalcommits: ^5.0.0
   dayjs: ^1.11.3
   eslint: ^8.20.0
   eslint-config-prettier: ^8.5.0
@@ -32,6 +33,7 @@ devDependencies:
   '@semantic-release/github': 8.0.5_semantic-release@19.0.3
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.3
   '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.3
+  conventional-changelog-conventionalcommits: 5.0.0
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0_eslint@8.20.0
   eslint-define-config: 1.5.1
@@ -661,6 +663,15 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       compare-func: 2.0.0
+      q: 1.5.1
+    dev: true
+
+  /conventional-changelog-conventionalcommits/5.0.0:
+    resolution: {integrity: sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==}
+    engines: {node: '>=10'}
+    dependencies:
+      compare-func: 2.0.0
+      lodash: 4.17.21
       q: 1.5.1
     dev: true
 
