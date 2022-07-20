@@ -1,3 +1,3 @@
 export function hello(name) {
-  return `hello perf ${name}`
+  return `hello refactor ${name}`
 }
