@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.2.3...v1.3.0) (2022-07-20)
+
+
+### Features
+
+* **index:** test feat ([25ac888](https://github.com/yikoyu/pnpm-renovate-demo/commit/25ac88855b0b44f4ff6d1699b6283782b113965b))
+
 ## [1.2.3](https://github.com/yikoyu/pnpm-renovate-demo/compare/v1.2.2...v1.2.3) (2022-07-20)
 
 
