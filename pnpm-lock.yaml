@@ -17,7 +17,7 @@ specifiers:
   lodash-es: ^4.17.21
   prettier: ^2.7.1
   semantic-release: ^19.0.3
-  vite: ^2.9.14
+  vite: ^2.9.15
   zx: ^7.0.8
 
 dependencies:
@@ -40,7 +40,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_h62lvancfh4b7r6zn2dgodrh5e
   prettier: 2.7.1
   semantic-release: 19.0.3
-  vite: 2.9.14
+  vite: 2.9.15
 
 packages:
 
@@ -2957,8 +2957,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.9.14:
-    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
+  /vite/2.9.15:
+    resolution: {integrity: sha512-fzMt2jK4vQ3yK56te3Kqpkaeq9DkcZfBbzHwYpobasvgYmP2SoAr6Aic05CsB4CzCZbsDv4sujX3pkEGhLabVQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
