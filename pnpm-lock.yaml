@@ -12,7 +12,7 @@ specifiers:
   dayjs: ^1.11.5
   eslint: ^8.23.0
   eslint-config-prettier: ^8.5.0
-  eslint-define-config: ^1.6.0
+  eslint-define-config: ^1.7.0
   eslint-plugin-prettier: ^4.2.1
   lodash-es: ^4.17.21
   prettier: ^2.7.1
@@ -36,7 +36,7 @@ devDependencies:
   conventional-changelog-conventionalcommits: 5.0.0
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
-  eslint-define-config: 1.6.0
+  eslint-define-config: 1.7.0
   eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
   prettier: 2.7.1
   semantic-release: 19.0.5
@@ -1097,8 +1097,8 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-define-config/1.6.0:
-    resolution: {integrity: sha512-3qulYnwDRGYQHXHGdXBSRcfpI7m37ilBoERzTUYI8fBUoK/46yfUVNkGwM9cF/aoBrGgIDcBSz/HyPQJTHI/+w==}
+  /eslint-define-config/1.7.0:
+    resolution: {integrity: sha512-13zk8z8eKO4tpPMvAGV0sa6ok0XuMeu7Zhcizu2bLwcLy1fbNt7/h8PU1wbp9IoIgQETggZJozU0nPXUXOao2g==}
     engines: {node: '>= 14.6.0', npm: '>= 6.0.0', pnpm: '>= 7.0.0'}
     dev: true
 
