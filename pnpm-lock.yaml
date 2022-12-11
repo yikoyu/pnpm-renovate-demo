@@ -9,7 +9,7 @@ specifiers:
   '@semantic-release/release-notes-generator': ^10.0.3
   axios: ^0.27.2
   conventional-changelog-conventionalcommits: ^5.0.0
-  dayjs: ^1.11.6
+  dayjs: ^1.11.7
   eslint: ^8.29.0
   eslint-config-prettier: ^8.5.0
   eslint-define-config: ^1.12.0
@@ -22,7 +22,7 @@ specifiers:
 
 dependencies:
   axios: 0.27.2
-  dayjs: 1.11.6
+  dayjs: 1.11.7
   lodash-es: 4.17.21
   zx: 7.1.1
 
@@ -746,8 +746,8 @@ packages:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
     dev: true
 
-  /dayjs/1.11.6:
-    resolution: {integrity: sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==}
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
     dev: false
 
   /debug/4.3.4:
