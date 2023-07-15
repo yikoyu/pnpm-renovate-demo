@@ -1,3 +1,4 @@
 {
-  extends: ['github>yikoyu/renovate-config']
+  extends: ['github>yikoyu/renovate-config'],
+  baseBranches: ['dev']
 }
