@@ -1,3 +1,4 @@
 {
+  baseBranches: ['master'],
   extends: ['github>yikoyu/renovate-config']
 }
